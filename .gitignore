@@ -1,15 +1,76 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# Gradle files
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+.gradle/**/cache/
+.gradle/**/wrapper/
+.gradle/**/build/
+
+# Local configuration file (SDK paths, etc)
 local.properties
+
+# Log files
+*.log
+
+# Android Studio/IntelliJ files
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/.name
+.idea/misc.xml
+.idea/vcs.xml
+.idea/compiler.xml
+
+# Android Studio automatically generated files
+*.hprof
+
+# Keystore files
+*.jks
+
+# MacOS files
+.DS_Store
+
+# Build folder
+/build/
+*/build/
+
+# Gradle cache files
+.gradle/
+**/build/
+*/.gradle/
+*/local.properties
+**/caches/
+**/wrapper/
+
+# External libraries
+.externalNativeBuild/
+
+# Proguard folder generated automatically by Android Studio
+proguard/
+
+# Generated code
+.cxx/
+.idea/
+
+# Unit test and instrumentation test results
+*/test-results/
+
+# Android crash reports
+crashlytics/
+
+# IntelliJ project specific caches (Kept to make project portable across devices)
+.idea/libraries/
+.idea/workspace.xml
+
+# Coverage and other reports
+*.csv
+*.pdf
+*.log
+*.xml
+
